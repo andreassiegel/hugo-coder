@@ -23,7 +23,7 @@ body {
 }
 
 a {
-  font-weight: 300;
+  // font-weight: 300;
   color: $link-color;
   text-decoration: none;
   &:focus,
@@ -46,6 +46,10 @@ h6 {
   font-weight: 700;
   color: $alt-fg-color;
   margin: 6.4rem 0 3.2rem 0;
+
+  a {
+    color: $alt-fg-color; 
+  }
 }
 
 h1 {
@@ -127,7 +131,6 @@ code {
   font-family: $code-font-family;
   font-size: 1.6rem;
   font-weight: 400;
-  background-color: $alt-bg-color;
   color: $fg-color;
 }
 

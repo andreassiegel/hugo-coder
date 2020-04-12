@@ -34,9 +34,11 @@
   }
   .post {
     .post-title {
-      margin-bottom: .75em;
+      margin-bottom: 2em;
     }
     .post-meta {
+      font-family: $heading-font-family;
+
       i {
         text-align: center;
         width: 1.6rem;
@@ -48,6 +50,9 @@
           margin-left: 0;
           margin-right: 1.5rem;
         }
+      }
+      a {
+        color: $fg-color;
       }
     }
   }
@@ -103,6 +108,9 @@
         }
       }
     }
+  }
+  .more-link {
+    font-family: $heading-font-family;
   }
 }
 
