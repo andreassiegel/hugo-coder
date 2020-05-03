@@ -36,6 +36,7 @@ p {
   margin: 2.0rem 0 2.0rem 0;
 
   code {
+    font-weight: 400;
     white-space: nowrap;
   }
 }
@@ -53,6 +54,10 @@ h6 {
 
   a {
     color: $alt-fg-color;
+  }
+
+  code {
+    font-weight: 600;
   }
 }
 
@@ -133,8 +138,6 @@ pre {
 
 code {
   font-family: $code-font-family;
-  font-size: 1.6rem;
-  font-weight: 400;
   color: $fg-color;
 }
 
@@ -148,12 +151,18 @@ blockquote {
 
 th, td {
   padding: 1.6rem;
+  text-align: left;
 }
+
+th {
+  font-family: $heading-font-family;
+}
+
 table {
   border-collapse: collapse;
 }
 table td, table th {
-  border: 2px solid $alt-fg-color;
+  border: 1px solid $alt-bg-color;
 }
 table tr:first-child th {
   border-top: 0;
